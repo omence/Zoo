@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Reptile
+    abstract class Reptile
     {
+        public abstract bool LaysEggs { get; set; }
+
+        public abstract bool ColdBloded { get; set; }
+
+
+
     }
 }
