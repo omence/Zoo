@@ -6,27 +6,23 @@ namespace Zoo.Classes
 {
     abstract class Zoo
     {
-        public int MaxVisitors { get; set; }
+        abstract public int MaxVisitors { get; set; }
 
-        public int NumOfCages { get; set; }
+        abstract public int NumOfCages { get; set; }
 
         virtual public bool OpenToPublic { get; set; }
 
         /// <summary>
         /// sends open zoo to console
         /// </summary>
-        public void OpeningProcess()
-        {
-            Console.WriteLine("Open the Zoo");
-        }
+        abstract public void OpeningProcess();
+     
 
         /// <summary>
         /// sends close zoo to console
         /// </summary>
-        public void ClosingProcess()
-        {
-            Console.WriteLine("Close the Zoo");
-        }
+        abstract public void ClosingProcess();
+        
       
 
     }

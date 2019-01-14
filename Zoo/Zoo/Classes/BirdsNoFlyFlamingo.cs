@@ -10,12 +10,12 @@ namespace Zoo.Classes
 
         public override void Feed()
         {
-            Console.WriteLine("Feed the Flamingo");
+            base.Feed();
         }
 
         public override void CleanCage()
         {
-            Console.WriteLine("Clean the Flamingo's cage");
+            base.CleanCage();
         }
 
         public override void Run()

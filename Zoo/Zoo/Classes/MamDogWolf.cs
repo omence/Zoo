@@ -10,16 +10,26 @@ namespace Zoo.Classes
 
         public override bool PacAnimal { get => base.PacAnimal; set => base.PacAnimal = value; }
 
+
+        /// <summary>
+        /// promps feeding
+        /// </summary>
         public override void Feed()
         {
-            Console.WriteLine("feed the wolf");
+            base.Feed();
         }
 
+        /// <summary>
+        /// prompts cleaning
+        /// </summary>
         public override void CleanCage()
         {
-            Console.WriteLine("Clean the wolf's cage");
+            base.CleanCage();
         }
 
+        /// <summary>
+        /// makes wolf howl
+        /// </summary>
         public override void Howl()
         {
             base.Howl();

@@ -13,7 +13,7 @@ namespace Zoo.Classes
         /// </summary>
         public override void Feed()
         {
-            Console.WriteLine("Feed the lizard");
+            base.Feed();
         }
 
         /// <summary>
@@ -21,7 +21,7 @@ namespace Zoo.Classes
         /// </summary>
         public override void CleanCage()
         {
-            Console.WriteLine("Clean the Lizard's cage");
+            base.CleanCage();
         }
 
         /// <summary>
