@@ -4,7 +4,17 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class MamDogs
+    abstract class MamDogs : Mamal
     {
+       virtual public bool PacAnimal { get; set; }
+
+
+        /// <summary>
+        /// Dog howls
+        /// </summary>
+        virtual public void Howl()
+        {
+            Console.WriteLine("Howl");
+        }
     }
 }
