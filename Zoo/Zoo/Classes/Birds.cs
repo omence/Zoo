@@ -4,8 +4,13 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class Birds : Zoo
+    class Birds : Zoo
     {
+
+        public override int MaxVisitors { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public override int NumOfCages { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public bool HasFeather { get; set; }
 
         public bool LaysEggs { get; set; }
@@ -13,13 +18,30 @@ namespace Zoo.Classes
         /// <summary>
         /// abstract method forces feeding
         /// </summary>
-        abstract public void Feed();
+        virtual public void Feed()
+        {
+            Console.WriteLine("Feeding Time");
+        }
 
 
         /// <summary>
         /// abstract method forces feeding
         /// </summary>
-        abstract public void CleanCage();
+        virtual public void CleanCage()
+        {
+            Console.WriteLine("Clean Cages");
+        }
+
+        public override void OpeningProcess()
+        {
+            Console.WriteLine("Open Zoo");
+        }
+
+        public override void ClosingProcess()
+        {
+            Console.WriteLine("Close Zoo");
+        }
+
 
     }
 }
