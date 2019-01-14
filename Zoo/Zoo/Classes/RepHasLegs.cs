@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class HasLegs
+    abstract class RepHasLegs : Reptile
     {
+        public bool Crawls { get; set; }
+
+        abstract public void Climb();
     }
 }

@@ -4,13 +4,28 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class Reptile
+    abstract class Reptile : Zoo
     {
-        public abstract bool LaysEggs { get; set; }
+        public bool LaysEggs { get; set; }
 
-        public abstract bool ColdBloded { get; set; }
+        public bool ColdBloded { get; set; }
 
 
+        /// <summary>
+        /// abstract method forces feeding
+        /// </summary>
+        abstract public void Feed();
 
+
+        /// <summary>
+        /// abstract method forces feeding
+        /// </summary>
+        abstract public void CleanCage();
     }
+
+    
+
+
+   
+
 }

@@ -12,15 +12,20 @@ namespace Zoo.Classes
 
         virtual public bool OpenToPublic { get; set; }
 
-
+        /// <summary>
+        /// sends open zoo to console
+        /// </summary>
         public void OpeningProcess()
         {
             Console.WriteLine("Open the Zoo");
         }
 
+        /// <summary>
+        /// sends close zoo to console
+        /// </summary>
         public void ClosingProcess()
         {
-            Console.WriteLine("Open the Zoo");
+            Console.WriteLine("Close the Zoo");
         }
       
 
