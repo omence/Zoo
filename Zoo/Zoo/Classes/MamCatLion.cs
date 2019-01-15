@@ -8,12 +8,7 @@ namespace Zoo.Classes
     {
         public bool HasMane { get; set; } = true;
 
-        /// <summary>
-        /// Makes lion roar
-        /// </summary>
-        public override void Roar()
-        {
-            base.Roar();
-        }
+        
+        
     }
 }

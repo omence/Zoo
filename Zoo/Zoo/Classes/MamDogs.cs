@@ -12,9 +12,11 @@ namespace Zoo.Classes
         /// <summary>
         /// Dog howls
         /// </summary>
-        virtual public void Howl()
+        virtual public string Howl()
         {
             Console.WriteLine("Howl");
+
+            return "Howl";
         }
     }
 }

@@ -11,9 +11,6 @@ namespace Zoo.Classes
         /// <summary>
         /// makes wolf howl
         /// </summary>
-        public override void Howl()
-        {
-            base.Howl();
-        }
+      
     }
 }
