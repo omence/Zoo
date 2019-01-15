@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public class BirdsFliesEagle : BirdFlies
+    public class Eagle : BirdFlies
     {
         public string WingSpan { get; set; } = "Has 6ft wing span";
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public class MamCatLion : MamCats
+    public class Lion : MamCats
     {
         public bool HasMane { get; set; } = true;
 

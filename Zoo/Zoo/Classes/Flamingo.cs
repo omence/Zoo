@@ -5,7 +5,7 @@ using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
-    public class BirdsNoFlyFlamingo : BirdsNoFly, ISwim, ICanAlsoFly
+    public class Flamingo : BirdsNoFly, ISwim, ICanAlsoFly
     {
         public bool IsPink { get; set; } = true;
 

@@ -11,7 +11,7 @@ namespace XUnitTestProject1
         public void WolfSwimWorks()
         {
             //Arrange
-            MamDogWolf mamDogWolf = new MamDogWolf();
+            Wolf mamDogWolf = new Wolf();
 
             //Act
             string swim = mamDogWolf.ICanSwim();
@@ -24,7 +24,7 @@ namespace XUnitTestProject1
         public void FlamingoSwimWorks()
         {
             //Arrange
-            BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
+            Flamingo birdsNoFlyFlamingo = new Flamingo();
 
             //Act
             string swim = birdsNoFlyFlamingo.ICanSwim();
@@ -37,7 +37,7 @@ namespace XUnitTestProject1
         public void FlamingoFlyWorks()
         {
             //Arrange
-            BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
+            Flamingo birdsNoFlyFlamingo = new Flamingo();
 
             //Act
             string fly = birdsNoFlyFlamingo.ICanFly();
@@ -50,7 +50,7 @@ namespace XUnitTestProject1
         public void LizardFlyWorks()
         {
             //Arrange
-            ReplegsLizard replegsLizard = new ReplegsLizard();
+            Lizard replegsLizard = new Lizard();
 
             //Act
             string fly = replegsLizard.ICanFly();
