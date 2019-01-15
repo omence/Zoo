@@ -5,7 +5,7 @@ using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
-    public class MamDogWolf : MamDogs, ISwim
+    public class Wolf : MamDogs, ISwim
     {
         public bool HuntsInPack { get; set; } = true;
 

@@ -27,7 +27,7 @@ namespace Zoo
         /// </summary>
         public static void MakeLizard()
         {
-            ReplegsLizard replegsLizard = new ReplegsLizard();
+            Lizard replegsLizard = new Lizard();
             Console.WriteLine("Lizard");
             replegsLizard.Breathing();
             replegsLizard.HeartBeats();
@@ -43,7 +43,7 @@ namespace Zoo
         /// </summary>
         public static void MakeSnake()
         {
-            RepNoLegSnake repNoLegSnake = new RepNoLegSnake();
+            Snake repNoLegSnake = new Snake();
             Console.WriteLine();
             Console.WriteLine("Snake");
             repNoLegSnake.Breathing();
@@ -59,7 +59,7 @@ namespace Zoo
         /// </summary>
         public static void MakeEagle()
         {
-            BirdsFliesEagle birdsFliesEagle = new BirdsFliesEagle();
+            Eagle birdsFliesEagle = new Eagle();
             Console.WriteLine();
             Console.WriteLine("Eagle");
             birdsFliesEagle.Breathing();
@@ -74,7 +74,7 @@ namespace Zoo
         /// </summary>
         public static void MakeFlamingo()
         {
-            BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
+            Flamingo birdsNoFlyFlamingo = new Flamingo();
             Console.WriteLine();
             Console.WriteLine("Flamingo");
             birdsNoFlyFlamingo.Breathing();
@@ -92,7 +92,7 @@ namespace Zoo
         /// </summary>
         public static void MakeWolf()
         {
-            MamDogWolf mamDogWolf = new MamDogWolf();
+            Wolf mamDogWolf = new Wolf();
             Console.WriteLine();
             Console.WriteLine("Wolf");
             mamDogWolf.Breathing();
@@ -108,7 +108,7 @@ namespace Zoo
         /// </summary>
         public static void MakeLion()
         {
-            MamCatLion mamCatLion = new MamCatLion();
+            Lion mamCatLion = new Lion();
             Console.WriteLine();
             Console.WriteLine("Lion");
             mamCatLion.Breathing();

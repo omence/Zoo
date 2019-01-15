@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public class RepNoLegSnake : RepNoLegs
+    public class Snake : RepNoLegs
     {
         public override bool Slithers { get; set; } = true;
 

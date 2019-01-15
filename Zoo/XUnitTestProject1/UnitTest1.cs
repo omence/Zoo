@@ -11,7 +11,7 @@ namespace XUnitTestProject1
         public void LizarsBreathingWorks()
         {
             //Arrange
-            ReplegsLizard replegsLizard = new ReplegsLizard();
+            Lizard replegsLizard = new Lizard();
 
             //Act
             string breath = replegsLizard.Breathing();
@@ -24,7 +24,7 @@ namespace XUnitTestProject1
         public void LizarsClimbsWorks()
         {
             //Arrange
-            ReplegsLizard replegsLizard = new ReplegsLizard();
+            Lizard replegsLizard = new Lizard();
 
             //Act
             string eggs = replegsLizard.LayEggs();
@@ -37,7 +37,7 @@ namespace XUnitTestProject1
         public void SnakeEatingWorks()
         {
             //Arrange
-            RepNoLegSnake repNoLegSnake = new RepNoLegSnake();
+            Snake repNoLegSnake = new Snake();
 
             //Act
             string eats = repNoLegSnake.Eating();
@@ -50,7 +50,7 @@ namespace XUnitTestProject1
         public void SnakeHissesWorks()
         {
             //Arrange
-            RepNoLegSnake repNoLegSnake = new RepNoLegSnake();
+            Snake repNoLegSnake = new Snake();
 
             //Act
             string hiss = repNoLegSnake.Hisses();
@@ -63,7 +63,7 @@ namespace XUnitTestProject1
         public void EagleBreathingWorks()
         {
             //Arrange
-            BirdsFliesEagle birdsFliesEagle = new BirdsFliesEagle();
+            Eagle birdsFliesEagle = new Eagle();
 
             //Act
             string breath = birdsFliesEagle.Breathing();
@@ -76,7 +76,7 @@ namespace XUnitTestProject1
         public void EagleFlyWorks()
         {
             //Arrange
-            BirdsFliesEagle birdsFliesEagle = new BirdsFliesEagle();
+            Eagle birdsFliesEagle = new Eagle();
 
             //Act
             string fly = birdsFliesEagle.Fly();
@@ -89,7 +89,7 @@ namespace XUnitTestProject1
         public void FlamingoEatingWorks()
         {
             //Arrange
-            BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
+            Flamingo birdsNoFlyFlamingo = new Flamingo();
 
             //Act
             string eat = birdsNoFlyFlamingo.Eating();
@@ -102,7 +102,7 @@ namespace XUnitTestProject1
         public void FlamingoRunWorks()
         {
             //Arrange
-            BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
+            Flamingo birdsNoFlyFlamingo = new Flamingo();
 
             //Act
             string run = birdsNoFlyFlamingo.Run();
@@ -115,7 +115,7 @@ namespace XUnitTestProject1
         public void WolfHowlWorks()
         {
             //Arrange
-            MamDogWolf mamDogWolf = new MamDogWolf();
+            Wolf mamDogWolf = new Wolf();
 
             //Act
             string howl = mamDogWolf.Howl();
@@ -128,7 +128,7 @@ namespace XUnitTestProject1
         public void WolfEatWorks()
         {
             //Arrange
-            MamDogWolf mamDogWolf = new MamDogWolf();
+            Wolf mamDogWolf = new Wolf();
 
             //Act
             string eat = mamDogWolf.Eating();
@@ -141,7 +141,7 @@ namespace XUnitTestProject1
         public void LionRoarWorks()
         {
             //Arrange
-            MamCatLion mamCatLion = new MamCatLion();
+            Lion mamCatLion = new Lion();
 
             //Act
             string roar = mamCatLion.Roar();
@@ -154,7 +154,7 @@ namespace XUnitTestProject1
         public void LionEatWorks()
         {
             //Arrange
-            MamCatLion mamCatLion = new MamCatLion();
+            Lion mamCatLion = new Lion();
 
             //Act
             string eat = mamCatLion.Eating();
