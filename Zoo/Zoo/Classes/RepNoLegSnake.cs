@@ -4,26 +4,17 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class RepNoLegSnake : RepNoLegs
+    public class RepNoLegSnake : RepNoLegs
     {
-        public override bool Slithers { get; set; }
+        public override bool Slithers { get; set; } = true;
 
-        public bool HasScales { get; set; }
+        public bool HasScales { get; set; } = true;
 
-        /// <summary>
-        /// Prompts feeding of snake
-        /// </summary>
-        public override void Feed()
+        public override string Hisses()
         {
-            base.Feed();
-        }
+            Console.WriteLine("hisss");
 
-        /// <summary>
-        /// Prompts cleaning of cage
-        /// </summary>
-        public override void CleanCage()
-        {
-            base.CleanCage();
+            return "hisss";
         }
 
         public void Squeez()

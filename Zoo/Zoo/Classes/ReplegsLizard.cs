@@ -4,37 +4,19 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class ReplegsLizard : RepHasLegs
+    public class ReplegsLizard : RepHasLegs
     {
-        public bool ChangesColor { get; set; }
+        public bool ChangesColor { get; set; } = true;
 
-        /// <summary>
-        /// Prompts feeding of the lizard
-        /// </summary>
-        public override void Feed()
-        {
-            base.Feed();
-        }
-
-        /// <summary>
-        /// prompts cleaning of the cage
-        /// </summary>
-        public override void CleanCage()
-        {
-            base.CleanCage();
-        }
-
-        /// <summary>
-        /// action lizard climbs
-        /// </summary>
-        public override void Climb()
-        {
-            Console.WriteLine("Lizard Climbs Branch");
-        }
 
         public void TurnGreen()
         {
             Console.WriteLine("Lizard turns green");
+        }
+
+        public override void Climb()
+        {
+            base.Climb();
         }
 
     }

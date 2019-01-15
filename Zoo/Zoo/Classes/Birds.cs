@@ -4,43 +4,18 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Birds : Zoo
+    public abstract class Birds : Animal
     {
 
-        public override int MaxVisitors { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool HasFeather { get; set; } = true;
 
-        public override int NumOfCages { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public bool HasFeather { get; set; }
-
-        public bool LaysEggs { get; set; }
+        public bool LaysEggs { get; set; } = true;
 
         /// <summary>
-        /// abstract method forces feeding
+        /// abstract method forces cleaning style of bird
         /// </summary>
-        virtual public void Feed()
-        {
-            Console.WriteLine("Feeding Time");
-        }
-
-
-        /// <summary>
-        /// abstract method forces feeding
-        /// </summary>
-        virtual public void CleanCage()
-        {
-            Console.WriteLine("Clean Cages");
-        }
-
-        public override void OpeningProcess()
-        {
-            Console.WriteLine("Open Zoo");
-        }
-
-        public override void ClosingProcess()
-        {
-            Console.WriteLine("Close Zoo");
-        }
+        abstract public string CleanFeathers();
+        
 
 
     }
