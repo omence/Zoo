@@ -27,6 +27,7 @@ namespace Zoo
             replegsLizard.LayEggs();
             replegsLizard.Climb();
             replegsLizard.TurnGreen();
+            replegsLizard.ICanFly();
         }
       
         public static void MakeSnake()

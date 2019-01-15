@@ -22,10 +22,11 @@ The difference between a Class and an object is an object is an instance of a cl
 In the project, we are using inheritance by creating relationships between parent and children classes.  This allows the children classes to have access to the properties and methods of the parent class.
 
 
-How do I run the program?
+I added two interfaces, interfaces are a method of adding more then of source for a class to inherit from.  Interfaces are only concerned with what a class can do.
 
-Click the run button
-Then choose an option, the program will walk you though the process of depositing, withdrawaling or viweing balance.
+First is ISwim, I added it to my wolf and my Flamingo.
 
-What does the program look like? (visual)
+I also added ICanAlsoFly interface which I used in Lizard and Flamingo.
+
+Diagram? (visual)
 ![image](https://github.com/omence/Zoo/blob/master/Zoo.png)
