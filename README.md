@@ -29,4 +29,4 @@ First is ISwim, I added it to my wolf and my Flamingo.
 I also added ICanAlsoFly interface which I used in Lizard and Flamingo.
 
 Diagram? (visual)
-![image]()
+![image](https://github.com/omence/Zoo/blob/master/Zoo.png)
