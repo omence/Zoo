@@ -8,6 +8,9 @@ namespace Zoo.Classes
     {
         abstract public bool Slithers { get; set; }
 
+        /// <summary>
+        /// Makes hiss
+        /// </summary>
         abstract public string Hisses();
     }
 }
