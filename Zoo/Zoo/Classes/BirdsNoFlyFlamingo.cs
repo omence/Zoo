@@ -4,23 +4,22 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class BirdsNoFlyFlamingo : BirdsNoFly
+    public class BirdsNoFlyFlamingo : BirdsNoFly
     {
-        public bool IsPink { get; set; }
+        public bool IsPink { get; set; } = true;
 
-        public override void Feed()
+        public override string CleanFeathers()
         {
-            base.Feed();
+            Console.WriteLine("The flamingo cleans self with beak");
+
+            return "The flamingo cleans self with beak";
         }
 
-        public override void CleanCage()
-        {
-            base.CleanCage();
-        }
-
-        public override void Run()
+        public override string Run()
         {
             Console.WriteLine("Flamingo is running");
+
+            return "Flamingo is running";
         }
 
         public string StandsOnOneLeg()

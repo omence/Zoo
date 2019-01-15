@@ -4,27 +4,23 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class BirdsFliesEagle : BirdFlies
+    public class BirdsFliesEagle : BirdFlies
     {
-        /// <summary>
-        /// prompts feeding of eagle
-        /// </summary>
-        public override void Feed()
+        public string WingSpan { get; set; } = "Has 6ft wing span";
+
+
+        public override string Fly()
         {
-            base.Feed();
+            Console.WriteLine("The Eagle glides");
+
+            return "The Eagle glides";
         }
 
-        /// <summary>
-        /// prompts
-        /// </summary>
-        public override void CleanCage()
+        public override string CleanFeathers()
         {
-            base.CleanCage();
-        }
+            Console.WriteLine("Cleans feathers by bathing");
 
-        public override void Fly()
-        {
-            Console.WriteLine("The Eagle is flying");
+            return "Cleans feathers by bathing";
         }
     }
 }

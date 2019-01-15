@@ -4,10 +4,15 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class RepHasLegs : Reptile
+    public abstract class RepHasLegs : Reptile
     {
-        public bool Crawls { get; set; }
+        public bool Crawls { get; set; } = true;
 
-        abstract public void Climb();
+        virtual public void Climb()
+        {
+            Console.WriteLine("Climbs a branch");
+        }
+
+        
     }
 }

@@ -4,42 +4,22 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Reptile : Zoo
+    public abstract class Reptile : Animal
     {
-        public override int MaxVisitors { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool LaysEggs { get; set; } = true;
 
-        public override int NumOfCages { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public bool LaysEggs { get; set; }
-
-        public bool ColdBloded { get; set; }
-
-        public override void OpeningProcess()
-        {
-            Console.WriteLine("Open the zoo");
-        }
-
-        public override void ClosingProcess()
-        {
-            Console.WriteLine("Close the zoo");
-        }
-        /// <summary>
-        /// abstract method forces feeding
-        /// </summary>
-        virtual public void Feed()
-        {
-            Console.WriteLine("Feeding Time");
-        }
+        public bool ColdBloded { get; set; } = true;
 
 
         /// <summary>
-        /// abstract method forces feeding
+        /// Reptiles lay eggs
         /// </summary>
-        virtual public void CleanCage()
+        virtual public string LayEggs()
         {
-            Console.WriteLine("Clean Cages");
-        }
+            Console.WriteLine("Laying Eggs");
 
+            return "Laying Eggs";
+        }
 
     }
 
