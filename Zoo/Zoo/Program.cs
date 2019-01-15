@@ -65,6 +65,8 @@ namespace Zoo
             birdsNoFlyFlamingo.CleanFeathers();
             birdsNoFlyFlamingo.Run();
             birdsNoFlyFlamingo.StandsOnOneLeg();
+            birdsNoFlyFlamingo.ICanSwim();
+            birdsNoFlyFlamingo.ICanFly();
         }
 
         public static void MakeWolf()
@@ -77,6 +79,7 @@ namespace Zoo
             mamDogWolf.Eating();
             mamDogWolf.GroomsOthers();
             mamDogWolf.Howl();
+            mamDogWolf.ICanSwim();
         }
 
         public static void MakeLion()
