@@ -8,6 +8,9 @@ namespace Zoo.Classes
     {
         public bool Crawls { get; set; } = true;
 
+        /// <summary>
+        /// Makes climb a branch
+        /// </summary>
         virtual public void Climb()
         {
             Console.WriteLine("Climbs a branch");

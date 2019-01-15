@@ -9,17 +9,25 @@ namespace Zoo.Classes
     {
         public bool ChangesColor { get; set; } = true;
 
-
+        /// <summary>
+        /// Makes turn green
+        /// </summary>
         public void TurnGreen()
         {
             Console.WriteLine("Lizard turns green");
         }
 
+        /// <summary>
+        /// Makes climb
+        /// </summary>
         public override void Climb()
         {
             base.Climb();
         }
 
+        /// <summary>
+        /// Makes fly
+        /// </summary>
         public string ICanFly()
         {
             Console.WriteLine("I'm flying!");

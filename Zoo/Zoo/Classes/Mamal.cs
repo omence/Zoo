@@ -12,7 +12,7 @@ namespace Zoo.Classes
 
 
         /// <summary>
-        /// abstract method forces feeding
+        /// How grooming happends
         /// </summary>
         virtual public void GroomsSelf()
         {
@@ -21,6 +21,9 @@ namespace Zoo.Classes
             
         }
 
+        /// <summary>
+        /// How grooming happends
+        /// </summary>
         virtual public void GroomsOthers()
         {
             Console.WriteLine("Grooming Others");

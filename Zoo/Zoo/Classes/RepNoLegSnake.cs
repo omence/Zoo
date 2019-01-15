@@ -10,6 +10,9 @@ namespace Zoo.Classes
 
         public bool HasScales { get; set; } = true;
 
+        /// <summary>
+        /// Makes hiss
+        /// </summary>
         public override string Hisses()
         {
             Console.WriteLine("hisss");
@@ -17,6 +20,9 @@ namespace Zoo.Classes
             return "hisss";
         }
 
+        /// <summary>
+        /// Makes squeez
+        /// </summary>
         public void Squeez()
         {
             Console.WriteLine("squeez");

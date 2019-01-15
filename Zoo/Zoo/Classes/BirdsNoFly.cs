@@ -8,6 +8,9 @@ namespace Zoo.Classes
     {
         public bool RunsFast { get; set; } = true;
 
+        /// <summary>
+        /// Makes animal run
+        /// </summary>
         abstract public string Run();
     }
 }

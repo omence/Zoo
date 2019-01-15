@@ -5,6 +5,10 @@ namespace Zoo
 {
     public class Program
     {
+        /// <summary>
+        /// calls methods
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.WriteLine("Welcom to the Zoo");
@@ -17,6 +21,10 @@ namespace Zoo
             MakeLion();
             Console.ReadLine();
         }
+
+        /// <summary>
+        /// Creates an instance of Lizard
+        /// </summary>
         public static void MakeLizard()
         {
             ReplegsLizard replegsLizard = new ReplegsLizard();
@@ -29,7 +37,10 @@ namespace Zoo
             replegsLizard.TurnGreen();
             replegsLizard.ICanFly();
         }
-      
+
+        /// <summary>
+        /// Creates an instance of Snake
+        /// </summary>
         public static void MakeSnake()
         {
             RepNoLegSnake repNoLegSnake = new RepNoLegSnake();
@@ -43,6 +54,9 @@ namespace Zoo
             repNoLegSnake.Squeez();
         }
 
+        /// <summary>
+        /// Creates an instance of Eagle
+        /// </summary>
         public static void MakeEagle()
         {
             BirdsFliesEagle birdsFliesEagle = new BirdsFliesEagle();
@@ -55,6 +69,9 @@ namespace Zoo
             birdsFliesEagle.Fly();
         }
 
+        /// <summary>
+        /// Creates an instance of Flamingo
+        /// </summary>
         public static void MakeFlamingo()
         {
             BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
@@ -70,6 +87,9 @@ namespace Zoo
             birdsNoFlyFlamingo.ICanFly();
         }
 
+        /// <summary>
+        /// Creates an instance of Wolf
+        /// </summary>
         public static void MakeWolf()
         {
             MamDogWolf mamDogWolf = new MamDogWolf();
@@ -83,6 +103,9 @@ namespace Zoo
             mamDogWolf.ICanSwim();
         }
 
+        /// <summary>
+        /// Creates an instance of Lion
+        /// </summary>
         public static void MakeLion()
         {
             MamCatLion mamCatLion = new MamCatLion();

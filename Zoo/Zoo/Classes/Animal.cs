@@ -31,6 +31,9 @@ namespace Zoo.Classes
             return "Breathing";
         }
 
+        /// <summary>
+        /// animals Eating
+        /// </summary>
         public string Eating()
         {
             Console.WriteLine("Eating");
