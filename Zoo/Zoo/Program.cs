@@ -13,6 +13,8 @@ namespace Zoo
             MakeSnake();
             MakeEagle();
             MakeFlamingo();
+            MakeWolf();
+            MakeLion();
             Console.ReadLine();
         }
         public static void MakeLizard()
@@ -65,5 +67,27 @@ namespace Zoo
             birdsNoFlyFlamingo.StandsOnOneLeg();
         }
 
+        public static void MakeWolf()
+        {
+            MamDogWolf mamDogWolf = new MamDogWolf();
+            Console.WriteLine();
+            Console.WriteLine("Wolf");
+            mamDogWolf.Breathing();
+            mamDogWolf.HeartBeats();
+            mamDogWolf.Eating();
+            mamDogWolf.GroomsOthers();
+            mamDogWolf.Howl();
+        }
+
+        public static void MakeLion()
+        {
+            MamCatLion mamCatLion = new MamCatLion();
+            Console.WriteLine();
+            Console.WriteLine("Lion");
+            mamCatLion.Breathing();
+            mamCatLion.HeartBeats();
+            mamCatLion.Eating();
+            mamCatLion.Roar();
+        }
     }
 }

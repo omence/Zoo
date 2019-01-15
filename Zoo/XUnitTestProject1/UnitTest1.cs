@@ -110,5 +110,57 @@ namespace XUnitTestProject1
             //Assert
             Assert.Equal("Flamingo is running", run);
         }
+
+        [Fact]
+        public void WolfHowlWorks()
+        {
+            //Arrange
+            MamDogWolf mamDogWolf = new MamDogWolf();
+
+            //Act
+            string howl = mamDogWolf.Howl();
+
+            //Assert
+            Assert.Equal("Howl", howl);
+        }
+
+        [Fact]
+        public void WolfEatWorks()
+        {
+            //Arrange
+            MamDogWolf mamDogWolf = new MamDogWolf();
+
+            //Act
+            string eat = mamDogWolf.Eating();
+
+            //Assert
+            Assert.Equal("Eating", eat);
+        }
+
+        [Fact]
+        public void LionRoarWorks()
+        {
+            //Arrange
+            MamCatLion mamCatLion = new MamCatLion();
+
+            //Act
+            string roar = mamCatLion.Roar();
+
+            //Assert
+            Assert.Equal("Roar", roar);
+        }
+
+        [Fact]
+        public void LionEatWorks()
+        {
+            //Arrange
+            MamCatLion mamCatLion = new MamCatLion();
+
+            //Act
+            string eat = mamCatLion.Eating();
+
+            //Assert
+            Assert.Equal("Eating", eat);
+        }
     }
 }

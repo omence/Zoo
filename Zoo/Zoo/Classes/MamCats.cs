@@ -11,9 +11,11 @@ namespace Zoo.Classes
         /// <summary>
         /// Cat roars
         /// </summary>
-        virtual public void Roar()
+        virtual public string Roar()
         {
             Console.WriteLine("Roar");
+
+            return "Roar";
         }
     }
 }
