@@ -40,10 +40,23 @@ namespace XUnitTestProject1
             BirdsNoFlyFlamingo birdsNoFlyFlamingo = new BirdsNoFlyFlamingo();
 
             //Act
-            string fly = birdsNoFlyFlamingo.ICanSwim();
+            string fly = birdsNoFlyFlamingo.ICanFly();
 
             //Assert
-            Assert.Equal("I'm swimming!", fly);
+            Assert.Equal("I'm Flying", fly);
+        }
+
+        [Fact]
+        public void LizardFlyWorks()
+        {
+            //Arrange
+            ReplegsLizard replegsLizard = new ReplegsLizard();
+
+            //Act
+            string fly = replegsLizard.ICanFly();
+
+            //Assert
+            Assert.Equal("I'm flying!", fly);
         }
     }
 }
