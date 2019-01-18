@@ -8,6 +8,8 @@ namespace Zoo.Classes
     {
         public override bool Slithers { get; set; } = true;
 
+        public override bool NeedsOxy { get; set; } = true;
+
         public bool HasScales { get; set; } = true;
 
         /// <summary>

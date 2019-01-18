@@ -6,6 +6,7 @@ namespace Zoo.Classes
 {
     public abstract class Birds : Animal
     {
+        public virtual bool BuildsNest { get; set; } = true;
 
         public bool HasFeather { get; set; } = true;
 
@@ -15,6 +16,8 @@ namespace Zoo.Classes
         /// abstract method forces cleaning style of bird
         /// </summary>
         abstract public string CleanFeathers();
+
+      
         
 
 

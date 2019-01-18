@@ -9,6 +9,8 @@ namespace Zoo.Classes
     {
         public bool HuntsInPack { get; set; } = true;
 
+        public override bool NeedsOxy { get; set; } = true;
+
         /// <summary>
         /// makes wolf swim
         /// </summary>

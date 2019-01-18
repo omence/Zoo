@@ -9,6 +9,8 @@ namespace Zoo.Classes
     {
         public bool IsPink { get; set; } = true;
 
+        public override bool NeedsOxy { get; set; } = true;
+
 
         /// <summary>
         /// Method of cleaning feathers

@@ -8,6 +8,8 @@ namespace Zoo.Classes
     {
         public string WingSpan { get; set; } = "Has 6ft wing span";
 
+        public override bool NeedsOxy { get; set; } = true;
+
         /// <summary>
         /// Makes Eagle Glide
         /// </summary>

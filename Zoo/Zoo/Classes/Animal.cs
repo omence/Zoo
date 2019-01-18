@@ -8,7 +8,7 @@ namespace Zoo.Classes
     {
         public bool IsAlive { get; set; } = true;
 
-        public bool NeedsOxy { get; set; } = true;
+        public abstract bool NeedsOxy { get; set; }
 
         public bool Eats { get; set; } = true;
 
