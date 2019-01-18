@@ -8,7 +8,9 @@ namespace Zoo.Classes
     {
         public bool HasMane { get; set; } = true;
 
-        
-        
+        public override bool NeedsOxy { get; set; } = true;
+
+
+
     }
 }
